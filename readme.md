@@ -140,5 +140,3 @@ And the system will **recall and remix it**.
 ---
 
 ## 🏁 Done!
-
-You're all set. Submit the repo and amaze them. Questions or final polish needed? I'm here to help. ✨
