@@ -1,8 +1,14 @@
 {
   "super-user": {
     "app_ids": [
-      "c25dcd829d134ea98f5ae4dd311d13bc.node3.openfabric.network",
-      "f0b5f319156c4819b9827000b17e511a.node3.openfabric.network"
+      "f0997a01-d6d3-a5fe-53d8-561300318557",
+      "69543f29-4d41-4afc-7f29-3d51591f11eb"
+    ]
+  },
+  "gg22": {
+    "app_ids": [
+      "f0997a01-d6d3-a5fe-53d8-561300318557",
+      "69543f29-4d41-4afc-7f29-3d51591f11eb"
     ]
   }
 }
