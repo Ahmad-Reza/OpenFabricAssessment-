@@ -148,8 +148,6 @@ Despite using the correct structure and registrations, the functions aren't rece
 - ✅ Used `print()` logging and **PyCharm debugger** to trace execution flow
 - ✅ Confirmed the app **runs without crashing** and works when triggered manually
 
----
-
 The rest of the pipeline — including prompt-to-3D generation and memory modules — functions as intended when invoked **independently**.
 
 ---
