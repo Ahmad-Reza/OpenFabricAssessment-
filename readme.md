@@ -118,12 +118,47 @@ You can say:
 And the system will **recall and remix it**.
 
 ---
+## 🚧 Progress Update: AI Developer Challenge Assignment
+
+I’m sharing the progress I've made so far on the **AI Developer Challenge assignment**. The following key features have been implemented successfully:
+
+### ✅ Implemented Features
+
+- 🧠 **End-to-end pipeline** that takes a natural language prompt and generates:
+  - 🖼️ An **image** via Openfabric’s **Text-to-Image** app
+  - 📦 A **3D model** via Openfabric’s **Image-to-3D** app
+- 🔗 **Local LLM integration** (e.g., DeepSeek) for understanding prompts and generating structured queries
+- 🧭 **Short-term and long-term memory** functionality to track past interactions and reuse relevant context
+
+---
+
+### ⚠️ Current Challenge: Callback APIs Not Triggering
+
+While testing full integration, I encountered an issue where the **callback APIs** defined in `main.py` (e.g., `configure` and `execute`) are **not being triggered** by the Openfabric runtime.
+
+Despite using the correct structure and registrations, the functions aren't receiving any incoming data or request payloads.
+
+---
+
+### 🛠️ Troubleshooting Steps Taken
+
+- ✅ Verified correct function signatures and registration inside `main.py`
+- ✅ Reviewed app configuration and `ignite.py` startup structure
+- ✅ Replaced `python3` with `python` for better compatibility on **Windows**
+- ✅ Used `print()` logging and **PyCharm debugger** to trace execution flow
+- ✅ Confirmed the app **runs without crashing** and works when triggered manually
+
+---
+
+The rest of the pipeline — including prompt-to-3D generation and memory modules — functions as intended when invoked **independently**.
+
+---
 
 ## ✅ Deliverables Checklist
 
 * ✅ Fully working Python project
 * ✅ README with instructions
-* ✅ Prompt → Image → 3D example
+* ✅ Prompt → Image → 3D example (getting issue)
 * ✅ Logs + memory
 * ✅ Short and long-term memory explained
 
