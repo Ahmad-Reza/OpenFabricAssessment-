@@ -1,0 +1,17 @@
+{
+  "sid": "d930e9fb22ac4e85995fb9a744cf4ea4",
+  "uid": null,
+  "qid": "ff984d8d139a445891cfdbc4c5fd0cb7",
+  "rid": null,
+  "bars": {
+    "default": {
+      "percent": "0",
+      "remaining": "NaN"
+    }
+  },
+  "messages": [],
+  "status": "QUEUED",
+  "created_at": "2025-05-11T03:37:28.879804",
+  "updated_at": "2025-05-11T03:37:28.879804",
+  "finished": false
+}
